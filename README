@@ -2,3 +2,22 @@ Implements a simple genetic algorithm in Haskell.  I wrote this just to sharpen 
 It may be a useful starting point for new Haskell programmers.
 
 - Marshall Beddoe (unmarshal@gmail.com)
+
+Example:
+
+[18:48:48] marshall@Atreides:~/Haskell-GA$ ghci ga.hs 
+GHCi, version 6.12.3: http://www.haskell.org/ghc/  :? for help
+Loading package ghc-prim ... linking ... done.
+Loading package integer-gmp ... linking ... done.
+Loading package base ... linking ... done.
+Loading package ffi-1.0 ... linking ... done.
+[1 of 4] Compiling ListUtils        ( ListUtils.hs, interpreted )
+[2 of 4] Compiling Show             ( Show.hs, interpreted )
+[3 of 4] Compiling Probability      ( Probability.hs, interpreted )
+[4 of 4] Compiling Main             ( ga.hs, interpreted )
+Ok, modules loaded: Show, Main, Probability, ListUtils.
+*Main> main
+inital population average fitness: 0.6503807
+evolved population average fitness: 0.9909024
+
+yay. closer to 1 the better.
