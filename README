@@ -1,0 +1,4 @@
+Implements a simple genetic algorithm in Haskell.  I wrote this just to sharpen my Haskell skills. 
+It may be a useful starting point for new Haskell programmers.
+
+- Marshall Beddoe (unmarshal@gmail.com)
